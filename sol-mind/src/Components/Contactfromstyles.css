@@ -1,0 +1,77 @@
+.form-container{
+    margin: 4rem 6rem;
+    color: #2a2a2a;
+    font-family: 'Klee One', cursive;
+    font-size: 21px;
+}
+
+.form-container h2{
+    padding: 3rem 0 2rem 0;
+}
+
+.location p{
+   align-items: left;
+   display: inline;
+}
+
+.form-container form{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+.form-container input{
+    height: 3rem;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+    border: 1px solid #2a2a2a;
+}
+
+.form-container textarea{
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+    border: 1px solid #2a2a2a;
+
+}
+
+.form-container button{
+    display: inline;
+}
+
+.textarea{
+    
+    height: 6rem;
+    width:auto;
+}
+
+button{
+    padding: 1rem 1rem;
+    white-space: normal;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover{
+    background-color: #151516;
+    color: #fff;
+}
+
+@media screen and (max-width:850px) {
+.form-container {
+    margin: 4rem 2rem
+}    
+
+.form-container form{
+    padding-top: 3rem;
+    width: 50%;
+    
+}
+}
