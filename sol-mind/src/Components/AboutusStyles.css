@@ -9,7 +9,6 @@
     
 }
 
-
 .about-container h2{
     padding-bottom: 1rem;
     padding-top : 6rem;
@@ -19,18 +18,23 @@
     padding-bottom: 2rem;
 
 }
-
-.image {
-    display: block;
-    justify-content: center;
+.fd{
+    padding-top: 6rem;
 }
-.f-content img {
+
+.fd h2{
+    padding-bottom: 1.5rem;
+}
+.fd p{
+    font-size: 18px;
+}
+.fd img {
+
     align-items: center;
-    margin-right: 10rem;
     display: flex;
     width: 100%;
+    width: 400px;
     height: 400px;
-    width : 400px;
     border-radius: 200px;
     object-fit: cover;
     position: relative;
@@ -38,16 +42,16 @@
     box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
 }
 
+
 .founder{
     justify-content: space-between;
-    margin-top: 2rem;
-    padding-right: 5rem;
+    margin-top: 0.5rem;
+    
    
 }
-@media screen and (max-width:850px) {
+@media screen and (max-width:850px) 
+{
     .about-container{
         margin: 4rem 2rem;
-        
     }    
-    
 }

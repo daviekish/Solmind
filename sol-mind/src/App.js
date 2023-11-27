@@ -5,11 +5,12 @@ import Contact from "./Routes/Contact";
 import Service from "./Routes/Service";
 import Blog from "./Routes/Blog";
 import { Routes,Route } from "react-router-dom";
-
+import ScrollToTop from './Components/ScrollToTop';
 
 function App() {
   return (
     <div className="App">
+      <ScrollToTop/>
       <Routes>
 
         <Route path="/" element={ <Home/> }/>

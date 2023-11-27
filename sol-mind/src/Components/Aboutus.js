@@ -3,17 +3,21 @@ import IMG_00 from '../Assets/CEO.jpeg';
 function AboutUs() {
     return(
 <>
+
+<div className="fd"> 
+    <h2> Founder and CEO </h2>
+    <center>
+        <div className="fimage">
+            <img alt="img" src={IMG_00}/></div>
+            <br></br>
+            <b><p>Dr. Soniah Jasmine M.A </p></b>
+            
+    </center>
+    </div>
 <div className="about-container">
            <div className="f-content">
-                    <h2>
-                        Founder and CEO
-                    </h2>
-
-                    <div className="image">
-                        <img alt="img" src={IMG_00}/>
-                        <p>Dr. Soniah Jasmine M.A </p>
                     
-                    </div>
+                    
                     <div className="founder">
                     
                         <p>

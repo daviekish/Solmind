@@ -1,0 +1,43 @@
+.Header{
+    margin:5rem 6rem;
+    color: #2a2a2a;
+}
+
+.Header h4{
+    font-size: 25px;
+
+}
+.Headercard{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.h-card{
+    width: 32%;
+    text-align: start;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 1rem 0.8rem;
+    justify-content: center;
+    flex: content;
+}
+
+.h-icon i {
+    font-size: 50px;
+    align-content: center;
+    color: rgb(9, 179, 171);
+}
+
+@media screen and (max-width:850px) {
+    .Header{
+        margin: 4rem 2rem;
+    }
+    .Headercard{
+        flex-direction: column;
+    }
+
+    .h-card{
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+}
